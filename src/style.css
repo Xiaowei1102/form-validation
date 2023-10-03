@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+[class*='error'] {
+    font-size: 15px;
+    width: 100%;
+    padding: 0;
+  
+   
+    color: white;
+    background-color: #900;
+    border-radius: 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  /* .email-rror.active {
+    padding: 1em;
+  } */
+
+  [class*='input-invalid'] {
+    
+    border: none;
+    outline: 2px solid red;
+    
+  }
+
+  
